@@ -1,0 +1,66 @@
+.graphs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.graph-image{
+    width: 650px;
+    height: 450px;
+}
+.arrow-button{
+    background-color: transparent;
+    border-width: 0px;
+}
+.arrow{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+
+    &.left{
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+}
+.buttons{
+    background-color: rgb(224, 222, 222);
+    margin-top: -50px;
+    margin-bottom: 5px;
+    display: flex;
+}
+.create-pdf{
+    background-color: grey;
+    color: #fff;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+}
+.top-buttons{
+    display: flex;
+    justify-content: center;
+}
+.top-button{
+    background-color: #fff;
+    border: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: rgb(73, 9, 250);
+    cursor: pointer;
+    width: 300px;
+    border-right: 0.1px solid grey;
+
+    &.active{
+        box-shadow: 4px 0px 8px #0280ff26;
+    }
+}
+.icons{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    margin-left: 5px;
+}
